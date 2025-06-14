@@ -15,6 +15,8 @@ class JDBC_DEMO{
             System.out.println("EmployeeID : " + resultSet.getInt(1));
             System.out.println("Employee Name: " + resultSet.getString(2));
             System.out.println("Employee Address: " + resultSet.getString(3));
+            System.out.println("This line is just added to check ");
+                
         }
     }
 }
